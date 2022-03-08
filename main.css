@@ -1,0 +1,167 @@
+/* body{
+    background-color:#F4FCD9} ; */
+
+nav{
+    background-color: #DADBBD;
+}
+nav ul{
+    margin-left: 55vw;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.text{
+    width: 50vw;
+    
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text h1{
+  font-family: 'Poppins', sans-serif;
+}
+.image img {
+    height: auto;
+    width: 30vw;
+    margin-top: 50px;
+   margin-bottom: 50px;
+}
+#homepage
+{
+    background-color: #1A1A40;
+    /* height: 70vh; */
+
+    color: aliceblue;
+}
+
+.heading{
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: justify;
+    background-color: #F4FCD9;
+    padding-bottom:10px ;
+    
+}
+.heading h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#footer h2
+{
+   text-align : center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 25px;
+   
+}
+.media
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+
+   
+    
+}
+.media div
+{
+    margin-right: 40px;
+    height: auto;
+    width: 30px;
+    font-size: 40px;
+    cursor: pointer;
+
+    
+}
+#gallery h2
+{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px 5px white;
+}
+#gallery
+{
+    background-color: #F4FCD9;
+}
+.photos 
+{ 
+    height: 400px;
+    width: 600px;
+    margin-left: 25vw;
+    padding-top: 0% ;
+    position: absolute;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    background-image: url(image1.jpg);
+    background-size: 100% 100%;
+    box-shadow:1px 1px 5px 5px rgb(44, 6, 6);
+    background-color: #1A1A40;
+    animation: slider 15s infinite ;
+
+
+}
+@keyframes slider
+{
+     0%
+    {
+        background-image: url('image1.jpg');
+        background-repeat: no-repeat;
+        background-size:auto 100%;
+        
+
+    }
+     35%
+    {
+        background-image: url('image2.jpg')
+    }
+    65%
+    {
+        background-image: url('image3.jpg')
+    }
+    85%
+    {
+        background-image: url('image4.jpg')
+    }
+   
+}
+.main
+{
+    width: 100%;
+    height: 70vh;
+   
+}
+#about
+{
+    background-color: #F4FCD9;
+}
+
+@media screen and (max-width: 1029px) {
+    .image img {
+      padding-top: 5vw;
+     
+    }
+  }
+  @media screen and (max-width:563px) {
+      .image img{
+          padding-top: 15vh;
+      }
+      .parent{
+          flex-direction: column;
+          align-items: center;
+      }
+  }
