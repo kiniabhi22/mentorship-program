@@ -192,13 +192,12 @@ nav ul{
           }
           
       }
-      @media screen (width:624px) {
+      @media screen and (max-width:624px) {
           .image img{
             margin-top:30px ;
           }
       }
   
   *{
-      border: 2px solid rgb(218, 205, 205);
+      border: 3px solid rgb(218, 205, 205);
   }
-   
