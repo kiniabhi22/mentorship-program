@@ -44,10 +44,16 @@ nav ul{
 
     color: aliceblue;
 }
+#about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .heading{
     width: 80vw;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
     text-align: justify;
     background-color: #F4FCD9;
     padding-bottom:10px ;
@@ -58,6 +64,7 @@ nav ul{
     margin-top: 0px;
     margin-bottom: 30px;
 }
+
 #login
 {
     background-color:#F4FCD9 ;
@@ -78,7 +85,7 @@ input
 .loginpage
 {
     font-family: 'Open Sans', sans-serif;
-   padding: 25px;
+   padding: 3vw;
     width: 50vw;
     border: 2px solid rgb(19, 10, 10);
    
@@ -277,7 +284,7 @@ color: #1a1aa5;
       }
       
   }
-  @media screen and (max-width:825px) 
+  /* @media screen and (max-width:825px) 
   {
       .heading
       {
@@ -291,35 +298,29 @@ color: #1a1aa5;
     {
         margin-left: 40px
     }
-  }
-  @media screen and (max-width:630px)
+  } */
+  /* @media screen and (max-width:630px)
   {
     .heading
     {
         margin-left: 30px
     }
-  }
-  @media screen and (max-width:420px)
+  } */
+  /* @media screen and (max-width:420px)
   {
     .heading
     {
         margin-left: 20px
     }
-  }
-  @media screen and (max-width:325px)
+  } */
+  /* @media screen and (max-width:325px)
   {
     .heading
     {
         margin-left: 10px
     }
-  }
-  @media screen and (max-width:245px)
-  {
-    .heading
-    {
-        margin-left: 5px
-    }
-  }
+  } */
+ 
   @media screen and (max-width:460px) 
   {
     .media div
@@ -682,7 +683,7 @@ color: #1a1aa5;
      }
 
   }
-  @media screen and (max-width: 334px) 
+  /* @media screen and (max-width: 334px) 
   {
      .loginpage
      {
@@ -690,7 +691,7 @@ color: #1a1aa5;
      }
      
      
-  }
+  } */
   @media screen and (max-width: 240px) 
   {
     input
